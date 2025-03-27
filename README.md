@@ -1,50 +1,31 @@
-# Welcome to your Expo app 👋
+# Assignment Instructions
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Objective
+In this assignment, you will create multiple forms using Formik for handling form state and Yup for validation within an Expo project.
+## Requirements
+###    1.	Employee Information Form
+- Develop a form that collects employee information with a minimum of five fields.
+- Implement form validation using Yup.
+### 2.	Authentication Forms
+#### o	Create two additional forms: 
+- Sign-in form
+- Sign-up form
+- Validate both forms using Yup.
+### 3.	Project Setup
+#### o	Initialize a new Expo project by running: 
+``npx create-expo-app@latest <project-name>``
+* Replace <project-name> with a suitable name for your project.
+  
+### 4.	Screen Development & Styling
+- Add the required screens to your project.
+- Apply appropriate styling to enhance the user interface.
+- Include icons where necessary.
+### 5.	Version Control & Collaboration
+- Push your code to a GitHub repository.
+- Ensure that all group members are added as collaborators.
+### 6.	Submission
+- Submit the GitHub repository link on D2L.
+- As an alternative, you may remove the node_modules folder and upload the project files directly to D2L.
 
-## Get started
+Ensure that your code is well-structured, properly commented, and follows best practices for React Native development.
 
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
